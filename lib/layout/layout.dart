@@ -9,14 +9,14 @@ const aboutUsText = """Burning Torch is a an Mobile App and Web Development
 Start Up that that provides superior App as well as Web
 development services. The Web and App solutions
 developed by us will take your business to new heights.
-Moreover, understanding your business and customers\'
+Moreover, understanding your business and customers
 desires, we design and deploy apps and websites that you
 may love to see and make the most use of that.\n\n
 Our main aim is to offer business solutions that
 encourage entrepreneurs in the internet world.
 Expertise is always ready to support and serve each
 client with top-notch App and web Development
-technology and seek success for the client\'s project
+technology and seek success for the client's project
 plans.""";
 
 class Layout extends StatefulWidget {
