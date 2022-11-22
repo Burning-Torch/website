@@ -18,7 +18,6 @@ class MyAppState extends State<MyApp> {
   PageController pageController = PageController();
 
   void scrollDown(double scrollDown) {
-    debugPrint('movePage');
     pageController.animateTo(
       scrollDown,
       duration: const Duration(milliseconds: 500),
@@ -32,7 +31,6 @@ class MyAppState extends State<MyApp> {
       home: Scaffold(
         body: LayoutBuilder(
           builder: (ctx, constraints) {
-            debugPrint('maxHeight: ${constraints.maxHeight}');
             return Stack(
               children: [
                 Layout(
