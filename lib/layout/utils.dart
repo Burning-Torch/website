@@ -6,7 +6,7 @@ double calculateWidh({
   required BoxConstraints constraints,
   required double factor,
   double maxFactor = 0.95,
-  double minFactor = 0.6,
+  double minFactor = 0.7,
 }) {
   var newFactor = 10000 * factor;
   var width = newFactor / constraints.maxWidth;
